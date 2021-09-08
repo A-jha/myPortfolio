@@ -1,0 +1,20 @@
+{
+    "projects":[
+        {
+            "title":"Covid-19 Tracker",
+            "img":"../assets/images/code.jpg"
+        },
+         {
+            "title":"Weather App PWA",
+            "img":"../assets/images/code.jpg"
+        },
+         {
+            "title":"Tour APP",
+            "img":"../assets/images/code.jpg"
+        },
+         {
+            "title":"Serverless App",
+            "img":"../assets/images/pawn.jpg"
+        }
+    ]
+}

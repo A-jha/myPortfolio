@@ -1,0 +1,10 @@
+{
+    "programming":["C++","Python","Javascript","Typescript",
+    "Java","Dart"
+    ],
+     "frontend":["HTML","CSS","SCSS","React","GatsbyJs","NextJs",
+        "Material UI"],
+    "apiDesign":["Django-REST","Serverless", "NodeJs","FastAPI"],
+    "database":["SQL","Postgres","Mongodb","Google Cloud Store"],
+    "machinelearning":["Tensorflow","Keras","Pandas","Numpy","OpenCV"]
+}
