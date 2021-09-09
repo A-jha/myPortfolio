@@ -15,13 +15,13 @@ import ChevronRightIcon from "@material-ui/icons/ChevronRight"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemIcon from "@material-ui/core/ListItemIcon"
 import ListItemText from "@material-ui/core/ListItemText"
-import InboxIcon from "@material-ui/icons/MoveToInbox"
+
 import HomeIcon from "@material-ui/icons/Home"
 import ContactIcon from "@material-ui/icons/ContactMail"
 import ProjectIcon from "@material-ui/icons/Work"
-import MailIcon from "@material-ui/icons/Mail"
+
 import { Feedback, Subscriptions } from "@material-ui/icons"
-import SuggestionIcon from "@material-ui/icons/CommuteTwoTone"
+
 import NavBar from "./Navbar"
 import Footer from "./Footer"
 import "../../assets/css/main.css"
