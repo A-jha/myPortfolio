@@ -34,8 +34,8 @@ const ProjectList = ({ projects = [] }) => {
                 <IconButton>
                   <Liked color="secondary" />
                 </IconButton>
-                <Link to={`/${title}`}>
-                  <ViewCode fontSize="large" />
+                <Link to={`${project.content.link}`} target="_blank">
+                  <ViewCode fontSize="large" htmlColor="blue" />
                 </Link>
                 <IconButton>
                   <SourceCode />

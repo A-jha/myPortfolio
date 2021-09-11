@@ -148,12 +148,13 @@ a {
     rgba(240, 133, 11, 0.979)
   );
 }
-.main {
+/* .main {
   min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  background: "#444" !important;
+} */
 .wideBtn {
   width: 25vw;
   margin-bottom: 2rem;

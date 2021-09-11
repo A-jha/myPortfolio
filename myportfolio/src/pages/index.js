@@ -15,9 +15,7 @@ export default function Home() {
   return (
     <Layout>
       <CssBaseline />
-      <div className="main">
-        <Main />
-      </div>
+      <Main />
       <Skills />
       <FeaturedProjects />
     </Layout>
@@ -26,7 +24,13 @@ export default function Home() {
 const Main = () => {
   const classes = useStyles()
   return (
-    <Grid container spacing={3} justifyContent="center" alignItems="center">
+    <Grid
+      container
+      spacing={3}
+      justifyContent="center"
+      alignItems="center"
+      className={classes.main}
+    >
       <Grid item xs={12} md={8}>
         <section>
           <Typography variant="h4" className={classes.title}>
@@ -69,6 +73,9 @@ const Main = () => {
 }
 
 const useStyles = makeStyles(theme => ({
+  main: {
+    background: "#aaa",
+  },
   title: {
     textAlign: "center",
     margin: theme.spacing(2, 1, 1, 1),

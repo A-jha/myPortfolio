@@ -19,7 +19,7 @@ const query = graphql`
         featured
         content {
           tags
-          topics
+          link
         }
       }
     }
